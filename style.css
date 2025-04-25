@@ -38,7 +38,7 @@ input[type="text"] {
     border-radius: 10px;
     outline: none;
     background-color: #fff0f5;
-    color: #990000b9;
+    color: #45a3f0b9;
     font-size: 1em;
 }
 
@@ -49,15 +49,15 @@ input::placeholder {
 .agregaPokemon {
     padding: 10px;
     margin: 5px;
-    border: 2px solid #b81b1b;
+    border: 2px solid #36819e;
     border-radius: 10px;
     outline: none;
-    background-color: #fff0f5;
-    color: #99004d;
+    background-color: #fff0f0;
+    color: #0bce73;
     font-size: 1em;
 }
 .delete{
-    background-color: #af046b;
+    background-color: #374ed1;
     border: none;
     border-radius: 10px;
     color: white;
@@ -90,19 +90,18 @@ button {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   }
   
-
   button:hover {
     background-color: #d1ba51; 
-    color: #504e4e; /* Color del texto a blanco */
-    border-color: #FFCB05; /* Cambio de color del borde */
-    transform: scale(1.05); /* Escala ligeramente el botón */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+    color: #504e4e;
+    border-color: #FFCB05; 
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
   }
   
-  /* Efecto al hacer clic (active) */
+ 
   button:active {
-    background-color: #FF4500; /* Rojo anaranjado intenso al hacer clic */
-    transform: scale(0.98); /* Reduce el tamaño ligeramente */
+    background-color: #ff885d; 
+    transform: scale(0.98); 
   }
   
 
@@ -116,7 +115,7 @@ button {
 .card {
     position: relative;
     background-color: #fff0f5;
-    border: 2px solid #ff99cc;
+    border: 2px solid #3894df;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -141,5 +140,8 @@ button {
 
 .card h3 {
     margin: 10px 0 0 0;
-    color: #cc007a;
+    color: #00cc3d;
+}
+img {
+    width: 40px
 }
