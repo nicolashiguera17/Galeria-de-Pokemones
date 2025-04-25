@@ -91,9 +91,9 @@ button {
   }
   
   button:hover {
-    background-color: #d1ba51; 
+    background-color: #8cc6fd; 
     color: #504e4e;
-    border-color: #FFCB05; 
+    border-color: #806ee6; 
     transform: scale(1.05); 
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
   }
