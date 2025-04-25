@@ -1,0 +1,145 @@
+body {
+    background: linear-gradient(135deg, #3D8EED, #1D5A8C, #FF5733, #2A2A2A);
+    background-size: 400% 400%;
+    animation: gradientAnimation 12s ease infinite;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+h1 {
+    font-size: 2.5em;
+    color:#4f79d4; 
+    margin-bottom: 30px;
+
+}
+
+.inputs {
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #4f79d4; 
+    border-radius: 10px;
+    outline: none;
+    background-color: #fff0f5;
+    color: #990000b9;
+    font-size: 1em;
+}
+
+input::placeholder {
+    color: #1d1419;
+}
+
+.agregaPokemon {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #b81b1b;
+    border-radius: 10px;
+    outline: none;
+    background-color: #fff0f5;
+    color: #99004d;
+    font-size: 1em;
+}
+.delete{
+    background-color: #af046b;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white;
+    border: none;
+    display: flex;
+    padding: 5px 13px 9px 13px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: 7px;
+    right: 5px;
+}
+
+button {
+    background-color: #4f79d4; 
+    color: #e6eff5;
+    border: 2px solid #1900ff; 
+    border-radius: 12px; 
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+
+  button:hover {
+    background-color: #d1ba51; 
+    color: #504e4e; /* Color del texto a blanco */
+    border-color: #FFCB05; /* Cambio de color del borde */
+    transform: scale(1.05); /* Escala ligeramente el botón */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+  }
+  
+  /* Efecto al hacer clic (active) */
+  button:active {
+    background-color: #FF4500; /* Rojo anaranjado intenso al hacer clic */
+    transform: scale(0.98); /* Reduce el tamaño ligeramente */
+  }
+  
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    position: relative;
+    background-color: #fff0f5;
+    border: 2px solid #ff99cc;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 220px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(204, 0, 102, 0.2);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 70%;
+    object-fit: fill;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px solid #9b9b9b3c;
+}
+
+.card h3 {
+    margin: 10px 0 0 0;
+    color: #cc007a;
+}
